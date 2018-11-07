@@ -1,0 +1,42 @@
+body{
+    width: 1200px;
+    font-size: 14px;
+}
+.dang{
+    width: 900px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+}
+.menu{
+    list-style: none;
+}
+.menu-li{
+    display: inline-block;
+    width: 150px;
+    margin-right: 70px;
+    text-align: center;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+.box{
+    display: inline-block;
+    width: 420px;
+}
+img{
+    width: 420px;
+    height: 280px;
+}
+.box-left{
+    margin-right: 55px;
+}
+.wrapper{
+    padding: 0
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
