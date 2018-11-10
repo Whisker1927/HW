@@ -1,42 +1,73 @@
-body{
-    width: 1200px;
-    font-size: 14px;
+* {
+  margin: 0;
+  padding: 0;
 }
-.dang{
-    width: 900px;
-    margin-left: 150px;
-    margin-right: 150px;
+body {
+  width: 1200px;
+  font-size: 14px;
 }
+.dang {
+  width: 900px;
+  margin-bottom: 103px;
+  margin-top: 77px;
+  margin-left: 312px;
 }
-.menu{
-    list-style: none;
+.dang1 {
+  width: 900px;
+  margin-left: 150px;
 }
-.menu-li{
-    display: inline-block;
-    width: 150px;
-    margin-right: 70px;
-    text-align: center;
+.menu {
+  list-style: none;
 }
-a{
-    display: block;
-    text-decoration: none;
+.menu-li {
+  display: inline-block;
+  margin-right: 70px;
+  text-align: center;
 }
-.box{
-    display: inline-block;
-    width: 420px;
+a {
+  display: block;
+  text-decoration: none;
 }
-img{
-    width: 420px;
-    height: 280px;
+.box {
+  display: inline-block;
+  width: 420px;
 }
-.box-left{
-    margin-right: 55px;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
-.wrapper{
-    padding: 0
+.box-left {
+  margin-right: 55px;
 }
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.wrapper {
+  height: auto;
+}
+.btn-footer {
+  height: 60px;
+  width: 164px;
+  margin-top: 57px;
+  display: block;
+  position: relative;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+.container {
+  width: 0 auto;
+  margin: 0 auto;
+}
+.item {
+  list-style: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
