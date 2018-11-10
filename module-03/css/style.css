@@ -24,6 +24,9 @@ body {
   margin-right: 70px;
   text-align: center;
 }
+.item{
+    display: inline-block;
+}
 a {
   display: block;
   text-decoration: none;
@@ -70,4 +73,8 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+ul{
+    display: inline-block;
+   
 }
