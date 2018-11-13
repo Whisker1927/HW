@@ -21,11 +21,13 @@ body {
 .menu {
   list-style: none;
   text-align: center;
+  font-size: 0;
 }
 .menu-li {
   display: inline-block;
   margin-right: 70px;
   text-align: center;
+  font-size: 14px;
 }
 .last-li {
   margin: 0;
