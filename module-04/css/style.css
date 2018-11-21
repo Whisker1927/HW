@@ -120,6 +120,7 @@ li:last-child{
     line-height: 26px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    margin: 0px 0px 12px 0px;
 }
 h5{
     font-size: 18px;
