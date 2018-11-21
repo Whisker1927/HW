@@ -11,8 +11,7 @@ html{
     margin-bottom: 70px;
 }
 .features{
-    margin-bottom: 104px;
-   
+    padding-bottom: 104px;
 }
 img{
     display: block;
@@ -36,7 +35,6 @@ img{
     float: right;
     font-size: 14px;
     margin-top: 4px;
-    color: #0f0101;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
@@ -51,13 +49,14 @@ li:last-child{
 }
 .logo{
     display: inline-block;
-    margin-left: 30px;
 }
 .site-navigation{
     padding: 38px 0;
 }
 .navigation{
     text-decoration: none;
+    color: #0f0101;
+    display: block;
 }
 .navigation:hover{
     color: #4ec6ab;
@@ -107,7 +106,7 @@ li:last-child{
 }
 .headline{
     margin: 0;
-    padding-bottom: 122px;
+    margin-bottom: 122px;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 48px;
@@ -121,13 +120,13 @@ li:last-child{
     line-height: 26px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    margin: 20px 0;
 }
 h5{
     font-size: 18px;
     line-height: 26px;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
+    margin: 0px 0px 36px 0px;
 }
 h5::after{
     content: "";
@@ -136,12 +135,15 @@ h5::after{
     border-bottom: 3px solid #4ec6ab;
     margin-top: 15px;
 }
-.c{
+.link{
     text-transform: uppercase;
     background-color: #4ec6ab;
     color: #ffffff;
-    padding: 20px 46px;
+    padding: 12px 35px;
+    text-align: center;
     text-decoration: none;
+    display: block;
+    width: 160px;
 }
 .section{
     width: 202px;
@@ -166,4 +168,7 @@ h5::after{
     line-height: 32px;
     color: #ffffff;
     margin: 0;
+}
+.pictures{
+    margin-bottom: 10px;
 }
