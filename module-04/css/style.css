@@ -145,6 +145,7 @@ h5::after{
     text-decoration: none;
     display: block;
     width: 160px;
+    margin-bottom: 45px;
 }
 .section{
     width: 202px;
