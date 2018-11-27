@@ -1,0 +1,248 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.features {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px 100px;
+}
+.container-1 {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.logo {
+  display: inline-block;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.menu {
+  width: 475px;
+  list-style: none;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  float: right;
+  font-size: 14px;
+  line-height: 11px;
+  margin-top: 4px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+.item {
+  float: left;
+  text-align: center;
+  margin-right: 28px;
+}
+li:last-child {
+  margin-right: 0;
+}
+.site-navigation {
+  margin: 0;
+  padding: 38px 0;
+}
+.navigation {
+  text-decoration: none;
+  color: #0f0101;
+  display: block;
+}
+.navigation:hover{
+    color: #4ec6ab;
+}
+.clearfix:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+.features-1 {
+  background-image: url(../img/banner.jpg);
+  height: 600px;
+  position: relative;
+  margin-bottom: 100px;
+}
+.slider {
+  height: 600px;
+  width: 1140px;
+  margin: auto;
+  position: relative;
+}
+.slider-ctrl {
+  margin: 0;
+  padding: 0;
+  border: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-block;
+  width: 105px;
+  height: 105px;
+  z-index: 85;
+  background-color: #55a190;
+  font-size: 100px;
+  line-height: 11px;
+  color: #ffffff;
+  font-family: "7 icon stroke";
+}
+@font-face {
+  font-family: "7 icon stroke";
+  src: url(../fonts/Pe-icon-7-stroke.ttf);
+}
+.prev {
+  left: 0;
+}
+.next {
+  right: 0;
+}
+.headline {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 37%;
+  left: 20%;
+  /*transform: translate(5%, -25%);*/
+  font-size: 60px;
+  line-height: 82px;
+  color: #ffffff;
+  font-family: "Roboto Black", sans-serif;
+  text-transform: uppercase;
+}
+.descrip {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  /*transform: translate(50%, -50%);*/
+  font-size: 24px;
+  line-height: 54px;
+  color: #ffffff;
+  font-family: "Roboto Light"sans-serif;
+  text-transform: uppercase;
+}
+.headline-1 {
+  margin: 0;
+  padding-bottom: 120px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 48px;
+  line-height: 32px;
+  font-family: "Roboto";
+  font-weight: 900;
+  color: #515151;
+}
+.headline-1::after {
+  content: "";
+  display: block;
+  width: 164px;
+  margin: 0 auto;
+  border-bottom: 7px solid #4ec6ab;
+  margin-top: 30px;
+}
+.product {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 32px;
+}
+.product-item {
+  float: left;
+  margin-right: 30px;
+  width: 255px;
+}
+.product>li:hover p{
+    background-color: #4ec6ab;
+}
+.nomination {
+  width: 202px;
+  float: left;
+  height: 40px;
+  background-color: #323232;
+  font-size: 18px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+  padding: 5px 10px;
+  position: absolute;
+  bottom: 0px;
+}
+.price {
+  margin: 0;
+  padding: 5px;
+  width: 53px;
+  float: right;
+  text-align: center;
+  height: 40px;
+  background-color: #8c8c8c;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0px;
+  left: 202px;
+}
+.cellar{
+    background-color: #323232;
+    height: 88px;
+}
+.copyright{
+    font-size: 16px;
+    line-height: 88px;
+    font-family: 'Open Sans';
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+}
+.box{
+    position: relative;
+}
+.box:hover .overlay{
+  opacity: 0.549;
+}
+.overlay{
+  position: absolute;
+  top: 10px;
+  left:10px;
+  width: 235px;
+  height: 261px;
+  background-color: rgb(0, 0, 0);
+  opacity: 0;
+}
+.icon{
+  position: absolute;
+}
+.icon-1{
+  top:80px;
+  left:35px;
+}
+.icon-2{
+  top:80px;
+  left:93px;
+}
+.icon-3{
+  top:80px;
+  left:151px;
+}
+.icon-4{
+  top:138px;
+  left:35px;
+}
+.ftr-link{
+  text-decoration: none;
+  color: #4ec6ab;
+}
+.ftr-link:hover{
+  color: #ca27b5ef;
+}
