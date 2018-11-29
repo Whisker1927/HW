@@ -100,6 +100,9 @@ li:last-child {
   background-repeat: no-repeat;
   background-position: center;
 }
+.slider-ctrl:hover{
+  background-color: #b5ff02;
+}
 @font-face {
   font-family: "7 icon stroke";
   src: url(../fonts/Pe-icon-7-stroke.ttf);
@@ -208,7 +211,8 @@ li:last-child {
 }
 .cellar {
   background-color: #323232;
-  height: 88px;
+  min-height: 88px;
+  text-align: center;
 }
 .copyright {
   font-size: 16px;
@@ -217,8 +221,7 @@ li:last-child {
   color: #ffffff;
   text-align: center;
   margin: 0 auto;
-  padding-left: 512px;
-  float: left;
+  display: inline-block;
 }
 .product-item:hover .overlay {
   opacity: 1;
@@ -234,13 +237,29 @@ li:last-child {
   opacity: 0;
 }
 .icon-list {
+  padding: 0;
   list-style: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .icon-link {
   text-decoration: none;
 }
+
+.icon-list li {
+  float: left;
+}
+.icon-list li:not(:last-child) {
+  margin-bottom: 7px;
+}
+.icon-list li:not(:last-child):not(:first-child) {
+  margin-left: 7px;
+}
 .icon-1:hover {
   background-color: #1abc9c;
+  border: none;
 }
 .icon-1 {
   display: inline-block;
@@ -249,12 +268,11 @@ li:last-child {
   background-image: url(../img/icon1.png);
   background-repeat: no-repeat;
   background-position: center;
-  position: absolute;
-  top: 80px;
-  left: 35px;
+  border: 1px solid #ffffff;
 }
 .icon-2:hover {
   background-color: #1abc9c;
+  border: none;
 }
 .icon-2 {
   display: inline-block;
@@ -263,12 +281,11 @@ li:last-child {
   background-image: url(../img/icon2.png);
   background-repeat: no-repeat;
   background-position: center;
-  position: absolute;
-  top: 80px;
-  left: 93px;
+  border: 1px solid #ffffff;
 }
 .icon-3:hover {
   background-color: #1abc9c;
+  border: none;
 }
 .icon-3 {
   display: inline-block;
@@ -277,12 +294,11 @@ li:last-child {
   background-image: url(../img/icon3.png);
   background-repeat: no-repeat;
   background-position: center;
-  position: absolute;
-  top: 80px;
-  left: 151px;
+  border: 1px solid #ffffff;
 }
 .icon-4:hover {
   background-color: #1abc9c;
+  border: none;
 }
 .icon-4 {
   display: inline-block;
@@ -290,16 +306,14 @@ li:last-child {
   height: 50px;
   background-image: url(../img/icon4.png), url(../img/add-to-cart.png);
   background-repeat: no-repeat;
-  position: absolute;
+  border: 1px solid #ffffff;
   background-position: left 10px center, right 20px center;
-  top: 138px;
-  left: 35px;
+  background-color: #323232;
 }
 .ftr-link {
   text-decoration: none;
   color: #ffffff;
-  display: block;
-  float: left;
+  display: inline-block;
   line-height: 88px;
 }
 .ftr-link:hover {
