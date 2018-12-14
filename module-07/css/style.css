@@ -1,0 +1,255 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+.logo {
+  text-decoration: none;
+  display: block;
+  font-family: "Vast Shadow", cursive;
+  font-size: 26px;
+  color: #fed136;
+}
+.site-navigation {
+  display: flex;
+  justify-content: space-between;
+  min-height: 65px;
+  align-items: flex-end;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  flex-basis: 485px;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #313131;
+}
+.navigation {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+@font-face {
+  /* montserrat-regular - latin */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/montserrat-v12-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local("Montserrat Regular"), local("Montserrat-Regular"),
+    url("../fonts/montserrat-v12-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/montserrat-v12-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/montserrat-v12-latin-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/montserrat-v12-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/montserrat-v12-latin-regular.svg#Montserrat") format("svg"); /* Legacy iOS */
+}
+.navigation:hover {
+  color: #fed136;
+}
+.page-header {
+  margin-bottom: 122px;
+}
+.headline {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  color: #222222;
+  margin: 0 0 18px 0;
+}
+/* montserrat-700 - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/montserrat-v12-latin-700.eot"); /* IE9 Compat Modes */
+  src: local("Montserrat Bold"), local("Montserrat-Bold"),
+    url("../fonts/montserrat-v12-latin-700.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/montserrat-v12-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/montserrat-v12-latin-700.woff")
+      format("woff"); /* Modern Browsers */
+}
+.subtitle {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Playfair Display", italic;
+  text-align: center;
+  color: #777777;
+  margin: 0 0 174px 0;
+}
+/* playfair-display-italic - latin */
+@font-face {
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Playfair Display Italic"), local("PlayfairDisplay-Italic"),
+    url("../fonts/playfair-display-v13-latin-italic.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/playfair-display-v13-latin-italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+.product {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.product-item {
+  flex-basis: 291px;
+  position: relative;
+}
+.headline-1 {
+  margin: 0 0 18px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #222222;
+}
+.item-1::before {
+  display: inline-block;
+  content: "";
+  background-image: url(../img/Icon-Basket.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  left: 50%;
+  bottom: 110%;
+  transform: translate(-50%);
+}
+.item-2::before {
+  display: inline-block;
+  content: "";
+  background-image: url(../img/Icon-Laptop.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  left: 50%;
+  bottom: 110%;
+  transform: translate(-50%);
+}
+.item-3::before {
+  display: inline-block;
+  content: "";
+  background-image: url(../img/Icon-Locked.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  left: 50%;
+  bottom: 110%;
+  transform: translate(-50%);
+}
+.text {
+  margin: 0;
+  font-size: 14px;
+  font-family: "Roboto Slab", serif;
+  font-weight: normal;
+  color: #777777;
+}
+/* roboto-slab-regular - latin */
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Slab Regular"), local("RobotoSlab-Regular"),
+    url("../fonts/roboto-slab-v7-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/roboto-slab-v7-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+.services {
+  margin-bottom: 102px;
+}
+.contact {
+  background-image: url(../img/Background.jpg);
+}
+.contact .container{
+    padding-bottom: 115px;
+}
+.contact .headline {
+  color: #ffffff;
+  padding-top: 104px;
+}
+.contact .subtitle {
+  color: #666666;
+  margin-bottom: 75px;
+}
+form {
+  max-width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+input,
+textarea {
+  border: 0;
+  outline: 0;
+  padding: 1em;
+  display: block;
+  width: 100%;
+}
+input:not(:last-child){
+    margin-bottom: 30px;
+}
+#submit {
+  color: white;
+  background: #fed136;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  padding: 24px 62px;
+}
+input{
+  min-height: 20px;
+}
+textarea {
+  min-height: 212px;
+}
+.half {
+  width: 49%;
+  margin-bottom: 1em;
+}
+.left {
+  margin-right: 2%;
+}
+input[type="email"]:valid {
+    outline: medium solid rgb(4, 250, 4);
+  }  
+  input[type="email"]:invalid{
+    outline: medium solid rgb(250, 41, 4);
+  }
+  input[id="input-name"]:valid {
+    outline: medium solid rgb(4, 250, 4);
+  }  
+  input[id="input-name"]:invalid{
+    outline: medium solid rgb(250, 41, 4);
+  }
+  textarea[id="input-message"]:valid {
+    outline: medium solid rgb(4, 250, 4);
+  }  
+  textarea[id="input-message"]:invalid{
+    outline: medium solid rgb(250, 41, 4);
+  }
