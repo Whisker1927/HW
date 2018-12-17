@@ -30,56 +30,57 @@
         </ul>
       </nav>
     </header>
-    <section class="container services">
-      <h2 class="headline">services</h2>
-      <p class="subtitle">Lorem ipsum dolor sit amet consectetur.</p>
-      <ul class="product">
-        <li class="product-item item-1">
-          <h3 class="headline-1">E-Commerce</h3>
-          <p class="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
-            commodi. Itaque eum doloremque adipisci, explicabo ratione neque
-            facilis.
-          </p>
-        </li>
-        <li class="product-item item-2">
-          <h3 class="headline-1">Responsive Web</h3>
-          <p class="text">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum
-            architecto amet facilis aspernatur et laudantium perspiciatis
-            reiciendis! Quaerat!
-          </p>
-        </li>
-        <li class="product-item item-3">
-          <h3 class="headline-1">Web Security</h3>
-          <p class="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eaque
-            tempore rem corporis reprehenderit fugiat omnis fuga recusandae?
-          </p>
-        </li>
-      </ul>
-    </section>
-    <section class="contact">
-      <div class="container">
-      <h2 class="headline">contact us</h2>
-      <p class="subtitle">Lorem ipsum dolor sit amet consectetur.</p>
-      <form action="#" method="post">
-        <div class="half left cf">
-          <input type="text" id="input-name" placeholder="YOUR NAME*" />
-          <input type="email" id="input-email" placeholder="YOUR E-MAIL*" />
-          <input type="text" id="input-subject" placeholder="SUBJECT" />
+    <main>
+      <section class="container services">
+        <h2 class="headline">services</h2>
+        <p class="subtitle">Lorem ipsum dolor sit amet consectetur.</p>
+        <ul class="product">
+          <li class="product-item item-1">
+            <h3 class="headline-1">E-Commerce</h3>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
+              commodi. Itaque eum doloremque adipisci, explicabo ratione neque
+              facilis.
+            </p>
+          </li>
+          <li class="product-item item-2">
+            <h3 class="headline-1">Responsive Web</h3>
+            <p class="text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptatum architecto amet facilis aspernatur et laudantium
+              perspiciatis reiciendis! Quaerat!
+            </p>
+          </li>
+          <li class="product-item item-3">
+            <h3 class="headline-1">Web Security</h3>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+              eaque tempore rem corporis reprehenderit fugiat omnis fuga
+              recusandae?
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="contact">
+        <div class="container">
+          <h2 class="headline">contact us</h2>
+          <p class="subtitle">Lorem ipsum dolor sit amet consectetur.</p>
+          <form action="#" method="post">
+            <div class="half left cf">
+              <input type="text" name="input-name" required placeholder="your name*" />
+              <input type="email" name="input-email" required placeholder="your e-mail*" />
+              <input type="text" name="input-subject" required placeholder="subject" />
+            </div>
+            <div class="half right cf">
+              <textarea
+                name="message"
+                required placeholder="your message*"
+              ></textarea>
+            </div>
+            <button type="submit" class="submit">send message</button>
+          </form>
         </div>
-        <div class="half right cf">
-          <textarea
-            name="message"
-            type="text"
-            id="input-message"
-            placeholder="YOUR MESSAGE*"
-          ></textarea>
-        </div>
-        <button id="submit">send message</button>
-      </form>
-    </div>
-    </section>
+      </section>
+    </main>
   </body>
 </html>

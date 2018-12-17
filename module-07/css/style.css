@@ -21,22 +21,23 @@ html {
   display: flex;
   justify-content: space-between;
   min-height: 65px;
-  align-items: flex-end;
+  align-items: center;
 }
 .menu {
   list-style: none;
   display: flex;
   flex-basis: 485px;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  color: #313131;
 }
 .navigation {
   text-decoration: none;
   text-transform: uppercase;
+  color: #3f3f3f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
 }
 @font-face {
   /* montserrat-regular - latin */
@@ -91,7 +92,7 @@ html {
   font-family: "Playfair Display", italic;
   text-align: center;
   color: #777777;
-  margin: 0 0 174px 0;
+  margin: 0 0 78px 0;
 }
 /* playfair-display-italic - latin */
 @font-face {
@@ -113,6 +114,7 @@ html {
 .product-item {
   flex-basis: 291px;
   position: relative;
+  text-align: center;
 }
 .headline-1 {
   margin: 0 0 18px 0;
@@ -127,39 +129,30 @@ html {
   content: "";
   background-image: url(../img/Icon-Basket.png);
   background-repeat: no-repeat;
-  background-position: center center;
   width: 75px;
   height: 75px;
-  position: absolute;
-  left: 50%;
-  bottom: 110%;
-  transform: translate(-50%);
+  background-position: center;
+  margin: 0 auto;
 }
 .item-2::before {
   display: inline-block;
   content: "";
   background-image: url(../img/Icon-Laptop.png);
   background-repeat: no-repeat;
-  background-position: center center;
   width: 75px;
   height: 75px;
-  position: absolute;
-  left: 50%;
-  bottom: 110%;
-  transform: translate(-50%);
+  background-position: center;
+  margin: 0 auto;
 }
 .item-3::before {
   display: inline-block;
   content: "";
   background-image: url(../img/Icon-Locked.png);
   background-repeat: no-repeat;
-  background-position: center center;
   width: 75px;
   height: 75px;
-  position: absolute;
-  left: 50%;
-  bottom: 110%;
-  transform: translate(-50%);
+  background-position: center;
+  margin: 0 auto;
 }
 .text {
   margin: 0;
@@ -183,13 +176,14 @@ html {
 }
 .contact {
   background-image: url(../img/Background.jpg);
+  padding-top: 104px;
 }
 .contact .container{
     padding-bottom: 115px;
 }
 .contact .headline {
   color: #ffffff;
-  padding-top: 104px;
+  
 }
 .contact .subtitle {
   color: #666666;
@@ -210,17 +204,21 @@ textarea {
   padding: 1em;
   display: block;
   width: 100%;
+  text-transform: uppercase;
 }
 input:not(:last-child){
     margin-bottom: 30px;
 }
-#submit {
+.submit {
   color: white;
   background: #fed136;
   cursor: pointer;
   text-transform: uppercase;
   border: 1px solid transparent;
   padding: 24px 62px;
+}
+.submit:hover{
+    background: #bafd00f1;
 }
 input{
   min-height: 20px;
@@ -241,15 +239,15 @@ input[type="email"]:valid {
   input[type="email"]:invalid{
     outline: medium solid rgb(250, 41, 4);
   }
-  input[id="input-name"]:valid {
+  input[name="input-name"]:valid {
     outline: medium solid rgb(4, 250, 4);
   }  
-  input[id="input-name"]:invalid{
+  input[name="input-name"]:invalid{
     outline: medium solid rgb(250, 41, 4);
   }
-  textarea[id="input-message"]:valid {
+  textarea[name="message"]:valid {
     outline: medium solid rgb(4, 250, 4);
   }  
-  textarea[id="input-message"]:invalid{
+  textarea[name="message"]:invalid{
     outline: medium solid rgb(250, 41, 4);
   }
