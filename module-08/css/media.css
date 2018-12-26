@@ -45,8 +45,14 @@
   .partner-3 {
     order: -2;
   }
-  .icon {
-    bottom: 40%;
+  .icon-1::after,
+  .icon-3::after {
+    left: 59%;
+  }
+  .icon-2::after,
+  .icon-4::after {
+    bottom: 46%;
+    left: 59%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1439px) {
@@ -65,11 +71,18 @@
   .partner-item {
     width: 220px;
   }
-  .front__page{
-      width: 510px;
-      margin: 0 auto;
+  .front__page {
+    width: 510px;
+    margin: 0 auto;
   }
   .partner-item:not(:nth-child(n + 5)) {
     margin-bottom: 28px;
+  }
+  .icon-1::after,
+  .icon-2::after,
+  .icon-3::after,
+  .icon-4::after {
+      bottom: 46%;
+      left: 60%;
   }
 }
