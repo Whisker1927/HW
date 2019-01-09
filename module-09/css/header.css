@@ -1,0 +1,14 @@
+.header {
+  min-height: 170px;
+  margin-bottom: 30px;
+}
+.header__account {
+  margin-bottom: 115px;
+}
+
+@media (min-width: 769px) {
+  .header {
+    min-height: 40px;
+    margin-bottom: 160px;
+  }
+}

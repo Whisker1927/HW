@@ -1,0 +1,46 @@
+.btn {
+  --h: 40px;
+  --w: 280px;
+  --bdw: 2px;
+  display: block;
+  height: var(--h);
+  width: var(--w);
+  margin: auto;
+  padding: 0;
+  text-align: center;
+  line-height: calc(var(--h) - 2 * var(--bdw));
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: bold;
+  box-sizing: border-box;
+  border: var(--bdw) solid transparent;
+  border-radius: calc(var(--h) / 2);
+}
+
+.btn__dark {
+  color: #fff;
+  background: #ff4e50;
+}
+
+.btn__dark:hover {
+  color: #ff4e50;
+  background: #fff;
+}
+
+.btn__light {
+  border: 2px solid #ff4e50;
+  color: #ff4e50;
+  background: #fff;
+}
+
+.btn__light:hover {
+  color: #fff;
+  background: #ff4e50;
+}
+
+@media (min-width: 768px ) {
+  .btn {
+      --w: 228px;
+  }
+
+}

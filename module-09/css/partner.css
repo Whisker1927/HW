@@ -1,0 +1,72 @@
+.partner {
+  margin-bottom: 10px;
+}
+
+.partner__img-wrp {
+  --s: 122px;
+  height: var(--s);
+  width: var(--s);
+  margin: auto;
+  position: relative;
+  border-radius: 50%;
+}
+
+.icon {
+  --s: 40px;
+  height: var(--s);
+  width: var(--s);
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-tv {
+  background-image: url("../img/icon-tv.jpg");
+}
+
+.icon-messenger {
+  background-image: url("../img/icon-glass.jpg");
+}
+
+.icon-tea {
+  background-image: url("../img/icon-tea.jpg");
+}
+
+.icon-glass {
+  background-image: url("../img/icon-messenger.jpg");
+}
+
+.partner__name {
+  max-width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px 0 4px;
+  color: #333;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+.partner__about {
+  max-width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #666;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.2;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .partner:first-of-type {
+    margin-right: 16px;
+  }
+  .partner:last-of-type {
+    margin-left: 16px;
+  }
+}
+

@@ -1,0 +1,16 @@
+@import './account.css';
+@import './hero.css';
+@import './partner.css';
+@import './partners.css';
+@import './button.css';
+@import './slogan.css';
+@import './header.css';
+@import './logo.css';
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapper {
+    width: 320px;
+    margin: auto;
+}

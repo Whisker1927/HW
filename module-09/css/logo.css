@@ -1,0 +1,10 @@
+.logo {
+    font-size: 20px;
+    line-height: 1;
+    font-family: 'Montserrat';
+}
+
+a.logo__link {
+    text-decoration: none;
+    color: #fff;
+}

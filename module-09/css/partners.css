@@ -1,0 +1,17 @@
+.partners {
+  padding: 60px 20px 60px;
+}
+
+.partners__title {
+  font-weight: bold;
+  font-family: "Montserrat";
+  font-size: 22px;
+  padding: 5px 0;
+}
+
+@media (min-width: 960px) {
+  .partners {
+    width: 960px;
+    padding: 60px 0 60px;
+  }
+}
