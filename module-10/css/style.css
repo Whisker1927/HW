@@ -1,12 +1,10 @@
 html {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 *,
 *::before,
 *::after {
   -webkit-box-sizing: inherit;
-          box-sizing: inherit;
 }
 img {
   display: block;
@@ -14,57 +12,19 @@ img {
   height: auto;
 }
 .page-header {
-  background-image: -webkit-gradient(
-      linear,
-      left top, right top,
-      from(rgb(252, 227, 138, 0.9)),
-      to(rgb(243, 129, 129, 0.9))
-    ),
-    url(../img/banner-min.jpg);
-  background-image: -webkit-linear-gradient(
-      left,
-      rgb(252, 227, 138, 0.9) 0%,
-      rgb(243, 129, 129, 0.9) 100%
-    ),
-    url(../img/banner-min.jpg);
-  background-image: -o-linear-gradient(
-      left,
-      rgb(252, 227, 138, 0.9) 0%,
-      rgb(243, 129, 129, 0.9) 100%
-    ),
-    url(../img/banner-min.jpg);
   background-image: linear-gradient(
-      90deg,
-      rgb(252, 227, 138, 0.9) 0%,
-      rgb(243, 129, 129, 0.9) 100%
+      to bottom,
+      rgb(243, 129, 129, 0.9) 0%,
+      rgb(252, 227, 138, 0.9) 100%
     ),
     url(../img/banner-min.jpg);
   background-repeat: no-repeat;
   background-position: center;
   min-height: 1000px;
-  margin-bottom: 46px;
 }
+
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .page-header {
-    background-image: -webkit-gradient(
-        linear,
-        left top, right top,
-        from(rgb(252, 227, 138, 0.9)),
-        to(rgb(243, 129, 129, 0.9))
-      ),
-      url(../img/banner@2x-min.jpg);
-    background-image: -webkit-linear-gradient(
-        left,
-        rgb(252, 227, 138, 0.9) 0%,
-        rgb(243, 129, 129, 0.9) 100%
-      ),
-      url(../img/banner@2x-min.jpg);
-    background-image: -o-linear-gradient(
-        left,
-        rgb(252, 227, 138, 0.9) 0%,
-        rgb(243, 129, 129, 0.9) 100%
-      ),
-      url(../img/banner@2x-min.jpg);
     background-image: linear-gradient(
         90deg,
         rgb(252, 227, 138, 0.9) 0%,
@@ -136,7 +96,7 @@ img {
        -o-transition-timing-function: linear;
           transition-timing-function: linear;
 }
-.site-navigation__link--text:hover::after {
+.site-navigation__link:hover::after {
   width: 100%;
 }
 .site-navigation__link:hover {
@@ -166,6 +126,7 @@ img {
   line-height: 140px;
   color: #ffffff;
   margin: 0 0 124px 0;
+  padding: 0 180px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -183,7 +144,7 @@ img {
   border: 3px solid #ffffff;
 }
 .page-front__link:hover {
-  background-color: #fce38a;
+  background-color: #f80303;
 }
 .services__desc {
   font-family: "Kaushan Script";
@@ -221,7 +182,7 @@ img {
   padding: 0 10px;
 }
 .services__item {
-  width: 300px;
+  width: 380px;
   padding-left: 82px;
   position: relative;
 }
@@ -240,22 +201,22 @@ img {
   left: 20px;
   top: 0;
 }
-.services__item-1::before {
+.services__icon--alarm::before {
   background-image: url(../img/icon-1.png);
 }
-.services__item-2::before {
+.services__icon--line-graph::before {
   background-image: url(../img/icon-2.png);
 }
-.services__item-3::before {
+.services__icon--computer::before {
   background-image: url(../img/icon-3.png);
 }
-.services__item-4::before {
+.services__icon--book::before {
   background-image: url(../img/icon-4.png);
 }
-.services__item-5::before {
+.services__icon--home::before {
   background-image: url(../img/icon-5.png);
 }
-.services__item-6::before {
+.services__icon--image::before {
   background-image: url(../img/icon-6.png);
 }
 .services__headline {
@@ -264,15 +225,19 @@ img {
   font-size: 14px;
   color: #333333;
   text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 18px;
 }
 .services__text {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 15px;
   color: #999999;
+  margin: 0;
 }
 .services {
-  margin-bottom: 92px;
+  padding-top: 46px;
+  padding-bottom: 92px;
 }
 .team__desc {
   font-family: "Kaushan Script";
@@ -446,7 +411,7 @@ img {
   color: #999999;
 }
 .page-main {
-  margin-bottom: 82px;
+  padding-bottom: 82px;
 }
 .page-ftr {
   min-height: 62px;
