@@ -1,0 +1,7 @@
+.logo {
+    @extend %link;
+    font-size: 30px;
+    color: $first-bc;
+    font-family: $main-font-stack;
+    font-weight: 700;
+  }

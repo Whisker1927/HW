@@ -1,0 +1,43 @@
+.page-ftr {
+    min-height: 62px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-top: 1px solid $fourth-bc;
+  }
+  .ftr__link {
+    @extend %link;
+    display: inline-block;
+    font-size: 14px;
+    font-family: $main-font-stack;
+    font-weight: 400;
+    &:hover {
+      color: $fifth-bc;
+    }
+  }
+  .ftr__text {
+    display: inline-block;
+    margin: 0;
+    font-size: 14px;
+    font-family: $main-font-stack;
+    font-weight: 400;
+  }
+  .ftr__btn {
+    padding: 11px 33px;
+    background-color: $sixth-bc;
+    border: none;
+    text-transform: uppercase;
+    color: $first-bc;
+  }
+  .ftr__email {
+    display: inline-block;
+    border: 1px solid $seventh-bc;
+    padding: 10px 30px;
+  }
+  
